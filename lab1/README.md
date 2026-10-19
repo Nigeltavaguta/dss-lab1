@@ -1,5 +1,7 @@
 # Lab 1 - Empirical Validation of the Master Theorem and Recurrence Solving
 
+Full commit history: https://github.com/Nigeltavaguta/dss-lab1
+
 ## Requirements
 
 - Python 3 (tested with Python 3.12.0)
