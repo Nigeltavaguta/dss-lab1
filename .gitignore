@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# generated report exports (regeneratable from the .md)
+*.html
+*.pdf
