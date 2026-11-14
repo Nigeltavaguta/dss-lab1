@@ -6,6 +6,7 @@
   @page:first { @bottom-center { content: ""; } }
   table { font-size: 10.5pt; }
   h1, h2, h3 { margin-top: 0.7em; margin-bottom: 0.35em; }
+  math annotation, annotation { display: none !important; }
 </style>
 
 <div style="text-align:center; margin-bottom: 2em;">
@@ -101,7 +102,7 @@ The instance has $\lvert U\rvert = \lvert E\rvert$ elements and $\lvert V\rvert$
 
 **Claim: the returned cover $C$, with $\lvert C\rvert = 2\lvert M\rvert$, satisfies $\lvert C\rvert \le 2\cdot\text{OPT}$.**
 
-*Proof.* Every edge of $G$ needs covering, in particular every edge of $M\subseteq E$, so any vertex cover - in particular an optimal one - must contain at least one endpoint of each edge in $M$. Since $M$'s edges are pairwise vertex-disjoint, these required endpoints are $\lvert M\rvert$ distinct vertices, so $\text{OPT}\ge\lvert M\rvert$. The algorithm's cover has exactly $2\lvert M\rvert$ vertices (both endpoints of each matching edge, all distinct). Hence $\lvert C\rvert = 2\lvert M\rvert \le 2\cdot\text{OPT}$. $\blacksquare$
+*Proof.* Every edge of $G$ needs covering, in particular every edge of $M\subseteq E$, so any vertex cover - in particular an optimal one - must contain at least one endpoint of each edge in $M$. Since $M$'s edges are pairwise vertex-disjoint, these required endpoints are $\lvert M\rvert$ distinct vertices, so $\text{OPT}\ge\lvert M\rvert$. The algorithm's cover has exactly $2\lvert M\rvert$ vertices (both endpoints of each matching edge, all distinct). Hence $\lvert C\rvert = 2\lvert M\rvert \le 2\cdot\text{OPT}$.
 
 The bound is tight: on a path $a$-$b$-$c$-$d$, $\text{OPT}=\{b,c\}$ (size 2), but if the algorithm happens to pick edge $(a,b)$ first, it removes every edge touching $a$ or $b$, leaving only $(c,d)$, which it also picks - cover $\{a,b,c,d\}$, size 4, exactly $2\times\text{OPT}$.
 
@@ -111,7 +112,7 @@ The bound is tight: on a path $a$-$b$-$c$-$d$, $\text{OPT}=\{b,c\}$ (size 2), bu
 
 **Claim: the returned tour has length at most $2\cdot\text{OPT}$.**
 
-*Proof.* Removing any single edge from an optimal tour leaves a Hamiltonian path, which is a spanning tree; since $T$ is a *minimum* spanning tree, $w(T)\le\text{OPT}$. A walk that traverses every edge of $T$ exactly twice (there and back) visits every vertex and has total length $2w(T)$; this is exactly the walk a full DFS traversal of $T$ performs before any shortcutting. The algorithm instead shortcuts directly from a vertex to the next unvisited one whenever DFS would otherwise backtrack - by the triangle inequality, which Euclidean distances always satisfy, a direct edge is never longer than the path it replaces, so shortcutting can only decrease total length. Hence the algorithm's tour length is at most $2w(T)\le 2\cdot\text{OPT}$. $\blacksquare$
+*Proof.* Removing any single edge from an optimal tour leaves a Hamiltonian path, which is a spanning tree; since $T$ is a *minimum* spanning tree, $w(T)\le\text{OPT}$. A walk that traverses every edge of $T$ exactly twice (there and back) visits every vertex and has total length $2w(T)$; this is exactly the walk a full DFS traversal of $T$ performs before any shortcutting. The algorithm instead shortcuts directly from a vertex to the next unvisited one whenever DFS would otherwise backtrack - by the triangle inequality, which Euclidean distances always satisfy, a direct edge is never longer than the path it replaces, so shortcutting can only decrease total length. Hence the algorithm's tour length is at most $2w(T)\le 2\cdot\text{OPT}$.
 
 This argument needs the triangle inequality; `datasets.py` builds distance matrices from Euclidean points specifically so it holds. On a non-metric instance the shortcutting step could make the tour *longer*, and the proof breaks.
 
