@@ -1,0 +1,2 @@
+n,exact_min_cut,trials,successful_trials,observed_success_rate,single_trial_lower_bound,trials_for_99pct_bound,best_cut
+10,3,5000,760,0.152,0.022222222222222223,205,3

@@ -1,0 +1,2 @@
+samples,mu,sigma,threshold,proposal_mean,threshold_sigma,crude_estimate,crude_ci_low,crude_ci_high,is_estimate,is_ci_low,is_ci_high,crude_sample_variance,is_sample_variance,variance_reduction,crude_hits,analytical_probability
+500000,0.4,0.15,1.0,1.075,4.0,2.8e-05,1.6679629382146627e-05,4.700308133085042e-05,3.1600418512567364e-05,3.140654091852397e-05,3.1794296106610756e-05,2.7999271998543996e-05,4.892300274892358e-09,5723.130311979889,14,3.1671241833119965e-05
