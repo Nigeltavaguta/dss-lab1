@@ -1,0 +1,34 @@
+test,dataset,case,comparison,n_pairs,median_reduction_pct,ci_low,ci_high,wilcoxon_W,nonzero,p_value
+E1 pruning vs naive,random,feasible k=opt,naive vs fc,75,78.92,65.28,82.97,2628.0,72,1.69e-13
+E1 pruning vs naive,random,feasible k=opt,naive vs fc+mrv,75,96.78,76.56,98.51,2850.0,75,5.37e-14
+E1 pruning vs naive,random,feasible k=opt,naive vs fc+mrv+deg,75,96.78,76.56,98.93,2850.0,75,5.37e-14
+E1 pruning vs naive,random,feasible k=opt,naive vs fc+mrv+deg+mac,75,96.78,76.56,98.93,2850.0,75,5.37e-14
+E1 heuristic step,random,feasible k=opt,fc+mrv vs fc+mrv+deg,75,4.23,,,95.5,17,0.381
+E1 heuristic step,random,feasible k=opt,fc+mrv+deg vs fc+mrv+deg+mac,75,4.36,,,91.0,13,0.00165
+E1 pruning vs naive,random,refute k=opt-1,naive vs fc,75,88.23,83.5,90.69,2628.0,72,1.69e-13
+E1 pruning vs naive,random,refute k=opt-1,naive vs fc+mrv,75,98.53,97.87,99.31,2850.0,75,5.39e-14
+E1 pruning vs naive,random,refute k=opt-1,naive vs fc+mrv+deg,75,99.34,99.08,99.7,2850.0,75,5.38e-14
+E1 pruning vs naive,random,refute k=opt-1,naive vs fc+mrv+deg+mac,75,99.77,99.51,99.87,2850.0,75,5.31e-14
+E1 heuristic step,random,refute k=opt-1,fc+mrv vs fc+mrv+deg,75,46.7,,,1773.5,62,2.31e-08
+E1 heuristic step,random,refute k=opt-1,fc+mrv+deg vs fc+mrv+deg+mac,75,61.81,,,2850.0,75,4.65e-14
+E1 pruning vs naive,uz,feasible k=opt,naive vs fc,73,75.0,74.14,76.12,2701.0,73,1.15e-13
+E1 pruning vs naive,uz,feasible k=opt,naive vs fc+mrv,73,75.0,74.36,76.47,2631.0,73,1.96e-12
+E1 pruning vs naive,uz,feasible k=opt,naive vs fc+mrv+deg,73,75.0,74.36,76.56,2701.0,73,1.15e-13
+E1 pruning vs naive,uz,feasible k=opt,naive vs fc+mrv+deg+mac,73,75.0,74.36,76.56,2701.0,73,1.15e-13
+E1 heuristic step,uz,feasible k=opt,fc+mrv vs fc+mrv+deg,73,12.5,,,23.0,7,0.156
+E1 heuristic step,uz,feasible k=opt,fc+mrv+deg vs fc+mrv+deg+mac,73,2.84,,,55.0,10,0.00579
+E1 pruning vs naive,uz,refute k=opt-1,naive vs fc,73,80.07,80.06,81.8,1891.0,61,1.08e-11
+E1 pruning vs naive,uz,refute k=opt-1,naive vs fc+mrv,73,80.01,75.38,83.6,2051.0,65,1.63e-10
+E1 pruning vs naive,uz,refute k=opt-1,naive vs fc+mrv+deg,73,84.05,80.06,90.66,2196.0,67,4.09e-11
+E1 pruning vs naive,uz,refute k=opt-1,naive vs fc+mrv+deg+mac,73,89.94,86.87,94.16,2279.0,68,1.42e-11
+E1 heuristic step,uz,refute k=opt-1,fc+mrv vs fc+mrv+deg,73,32.64,,,319.0,28,0.00851
+E1 heuristic step,uz,refute k=opt-1,fc+mrv+deg vs fc+mrv+deg+mac,73,34.09,,,2346.0,68,7.55e-13
+E2 slots saved by hybrid,uz,all n,greedy-LF - hybrid,48,1.083,0.812,1.355,528.0,32,4.64e-07
+E2 slots saved by hybrid,uz,all n,greedy-DSATUR - hybrid,48,2.583,2.0,3.166,666.0,36,1.53e-07
+E2 slots saved by hybrid,uz,all n,B&B - hybrid,48,1.792,1.315,2.268,496.0,31,1e-06
+E2 slots saved by hybrid,random,all n,greedy-LF - hybrid,48,2.229,1.745,2.714,703.0,37,9.67e-08
+E2 slots saved by hybrid,random,all n,greedy-DSATUR - hybrid,48,1.042,0.769,1.314,496.0,31,6.98e-07
+E2 slots saved by hybrid,random,all n,B&B - hybrid,48,0.75,0.494,1.006,300.0,24,1.11e-05
+E4 B&B ablation,all,nodes,greedy UB only vs LB + greedy UB,70,96.11,,,494.0,33,0.000141
+E4 B&B ablation,all,nodes,LB only vs LB + greedy UB,70,93.55,,,1524.5,62,0.000124
+E4 B&B ablation,all,nodes,neither vs LB + greedy UB,70,96.65,,,1705.0,63,1.86e-06

@@ -1,0 +1,281 @@
+dataset,n,p,seed,config,slots,optimal,nodes,seconds
+random,30,0.5,1,LB + greedy UB,7,1,212,0.01919
+random,30,0.5,1,greedy UB only,7,1,212,0.02174
+random,30,0.5,1,LB only,7,1,231,0.01928
+random,30,0.5,1,neither,7,1,231,0.01804
+random,30,0.5,2,LB + greedy UB,7,1,50,0.00645
+random,30,0.5,2,greedy UB only,7,1,59,0.00498
+random,30,0.5,2,LB only,7,1,74,0.00662
+random,30,0.5,2,neither,7,1,83,0.0054
+random,30,0.5,3,LB + greedy UB,7,1,30,0.00485
+random,30,0.5,3,greedy UB only,7,1,33,0.00657
+random,30,0.5,3,LB only,7,1,30,0.00616
+random,30,0.5,3,neither,7,1,33,0.00399
+random,30,0.5,4,LB + greedy UB,7,1,12,0.00339
+random,30,0.5,4,greedy UB only,7,1,12,0.0018
+random,30,0.5,4,LB only,7,1,32,0.00465
+random,30,0.5,4,neither,7,1,32,0.00272
+random,30,0.5,5,LB + greedy UB,7,1,16,0.00796
+random,30,0.5,5,greedy UB only,7,1,16,0.00525
+random,30,0.5,5,LB only,7,1,67,0.00809
+random,30,0.5,5,neither,7,1,67,0.00543
+random,30,0.5,6,LB + greedy UB,7,1,32,0.00514
+random,30,0.5,6,greedy UB only,7,1,32,0.00302
+random,30,0.5,6,LB only,7,1,54,0.00565
+random,30,0.5,6,neither,7,1,54,0.0039
+random,30,0.5,7,LB + greedy UB,8,1,72,0.0078
+random,30,0.5,7,greedy UB only,8,1,76,0.00819
+random,30,0.5,7,LB only,8,1,101,0.01242
+random,30,0.5,7,neither,8,1,105,0.0096
+random,30,0.5,8,LB + greedy UB,7,1,13,0.00462
+random,30,0.5,8,greedy UB only,7,1,13,0.00312
+random,30,0.5,8,LB only,7,1,32,0.00596
+random,30,0.5,8,neither,7,1,32,0.00341
+random,30,0.5,9,LB + greedy UB,7,1,125,0.01155
+random,30,0.5,9,greedy UB only,7,1,125,0.01567
+random,30,0.5,9,LB only,7,1,141,0.02352
+random,30,0.5,9,neither,7,1,141,0.00936
+random,30,0.5,10,LB + greedy UB,7,1,42,0.0046
+random,30,0.5,10,greedy UB only,7,1,42,0.00341
+random,30,0.5,10,LB only,7,1,42,0.0033
+random,30,0.5,10,neither,7,1,42,0.00255
+random,40,0.5,1,LB + greedy UB,8,1,97,0.01927
+random,40,0.5,1,greedy UB only,8,1,97,0.01035
+random,40,0.5,1,LB only,8,1,290,0.02096
+random,40,0.5,1,neither,8,1,290,0.03413
+random,40,0.5,2,LB + greedy UB,8,1,1376,0.19711
+random,40,0.5,2,greedy UB only,8,1,1376,0.13597
+random,40,0.5,2,LB only,8,1,1399,0.14779
+random,40,0.5,2,neither,8,1,1399,0.21867
+random,40,0.5,3,LB + greedy UB,9,1,1522,0.14824
+random,40,0.5,3,greedy UB only,9,1,1522,0.18474
+random,40,0.5,3,LB only,9,1,1522,0.27781
+random,40,0.5,3,neither,9,1,1522,0.19881
+random,40,0.5,4,LB + greedy UB,9,1,71,0.00677
+random,40,0.5,4,greedy UB only,9,1,71,0.01151
+random,40,0.5,4,LB only,9,1,71,0.00855
+random,40,0.5,4,neither,9,1,71,0.01356
+random,40,0.5,5,LB + greedy UB,9,1,210,0.03063
+random,40,0.5,5,greedy UB only,9,1,210,0.01741
+random,40,0.5,5,LB only,9,1,236,0.02103
+random,40,0.5,5,neither,9,1,236,0.02229
+random,40,0.5,6,LB + greedy UB,8,1,776,0.10146
+random,40,0.5,6,greedy UB only,8,1,776,0.10088
+random,40,0.5,6,LB only,8,1,797,0.16022
+random,40,0.5,6,neither,8,1,797,0.05684
+random,40,0.5,7,LB + greedy UB,9,1,671,0.07597
+random,40,0.5,7,greedy UB only,9,1,671,0.06019
+random,40,0.5,7,LB only,9,1,709,0.0548
+random,40,0.5,7,neither,9,1,709,0.07124
+random,40,0.5,8,LB + greedy UB,8,1,422,0.03448
+random,40,0.5,8,greedy UB only,8,1,422,0.05147
+random,40,0.5,8,LB only,8,1,455,0.03892
+random,40,0.5,8,neither,8,1,455,0.04365
+random,40,0.5,9,LB + greedy UB,9,1,1440,0.14022
+random,40,0.5,9,greedy UB only,9,1,1440,0.10582
+random,40,0.5,9,LB only,9,1,1474,0.13577
+random,40,0.5,9,neither,9,1,1474,0.13786
+random,40,0.5,10,LB + greedy UB,8,1,64,0.00788
+random,40,0.5,10,greedy UB only,8,1,64,0.00603
+random,40,0.5,10,LB only,8,1,215,0.01628
+random,40,0.5,10,neither,8,1,215,0.01554
+random,50,0.3,1,LB + greedy UB,6,1,754,0.06935
+random,50,0.3,1,greedy UB only,6,1,754,0.06698
+random,50,0.3,1,LB only,6,1,812,0.07211
+random,50,0.3,1,neither,6,1,812,0.07446
+random,50,0.3,2,LB + greedy UB,6,1,349,0.0335
+random,50,0.3,2,greedy UB only,6,1,349,0.03382
+random,50,0.3,2,LB only,6,1,413,0.03861
+random,50,0.3,2,neither,6,1,413,0.03925
+random,50,0.3,3,LB + greedy UB,6,1,156,0.01593
+random,50,0.3,3,greedy UB only,6,1,156,0.01365
+random,50,0.3,3,LB only,6,1,196,0.01975
+random,50,0.3,3,neither,6,1,196,0.01827
+random,50,0.3,4,LB + greedy UB,6,1,127,0.01566
+random,50,0.3,4,greedy UB only,6,1,145,0.01594
+random,50,0.3,4,LB only,6,1,178,0.02045
+random,50,0.3,4,neither,6,1,196,0.02278
+random,50,0.3,5,LB + greedy UB,7,1,630,0.07199
+random,50,0.3,5,greedy UB only,7,1,630,0.06982
+random,50,0.3,5,LB only,7,1,672,0.07924
+random,50,0.3,5,neither,7,1,672,0.07783
+random,50,0.3,6,LB + greedy UB,7,1,1158,0.26414
+random,50,0.3,6,greedy UB only,7,1,1158,0.14892
+random,50,0.3,6,LB only,7,1,1158,0.2588
+random,50,0.3,6,neither,7,1,1158,0.14861
+random,50,0.3,7,LB + greedy UB,7,1,1957,0.19356
+random,50,0.3,7,greedy UB only,7,1,1957,0.2819
+random,50,0.3,7,LB only,7,1,1982,0.19611
+random,50,0.3,7,neither,7,1,1982,0.20919
+random,50,0.3,8,LB + greedy UB,6,1,613,0.06318
+random,50,0.3,8,greedy UB only,6,1,613,0.08896
+random,50,0.3,8,LB only,6,1,654,0.07492
+random,50,0.3,8,neither,6,1,654,0.07067
+random,50,0.3,9,LB + greedy UB,7,1,2731,0.33205
+random,50,0.3,9,greedy UB only,7,1,2731,0.26362
+random,50,0.3,9,LB only,7,1,2731,0.48634
+random,50,0.3,9,neither,7,1,2731,0.48587
+random,50,0.3,10,LB + greedy UB,6,1,1706,0.18735
+random,50,0.3,10,greedy UB only,6,1,1706,0.25915
+random,50,0.3,10,LB only,6,1,1751,0.2559
+random,50,0.3,10,neither,6,1,1751,0.20053
+random,60,0.3,1,LB + greedy UB,7,1,1134,0.23472
+random,60,0.3,1,greedy UB only,7,1,1134,0.21813
+random,60,0.3,1,LB only,7,1,1134,0.23653
+random,60,0.3,1,neither,7,1,1134,0.23075
+random,60,0.3,2,LB + greedy UB,7,1,2343,0.54252
+random,60,0.3,2,greedy UB only,7,1,2343,0.50923
+random,60,0.3,2,LB only,7,1,2385,0.55586
+random,60,0.3,2,neither,7,1,2385,0.46085
+random,60,0.3,3,LB + greedy UB,7,1,4787,0.77976
+random,60,0.3,3,greedy UB only,7,1,4787,0.86508
+random,60,0.3,3,LB only,7,1,4844,0.78489
+random,60,0.3,3,neither,7,1,4844,0.93376
+random,60,0.3,4,LB + greedy UB,7,1,3098,0.51391
+random,60,0.3,4,greedy UB only,7,1,3098,0.57819
+random,60,0.3,4,LB only,7,1,3124,0.51773
+random,60,0.3,4,neither,7,1,3124,0.54422
+random,60,0.3,5,LB + greedy UB,7,1,7598,1.48814
+random,60,0.3,5,greedy UB only,7,1,7598,1.56906
+random,60,0.3,5,LB only,7,1,7639,1.27671
+random,60,0.3,5,neither,7,1,7639,1.14485
+random,60,0.3,6,LB + greedy UB,7,1,3754,0.73082
+random,60,0.3,6,greedy UB only,7,1,3754,0.76391
+random,60,0.3,6,LB only,7,1,3771,0.84932
+random,60,0.3,6,neither,7,1,3771,0.75147
+random,60,0.3,7,LB + greedy UB,7,1,24402,4.45876
+random,60,0.3,7,greedy UB only,7,1,24402,4.98597
+random,60,0.3,7,LB only,7,1,24453,4.69006
+random,60,0.3,7,neither,7,1,24453,4.69671
+random,60,0.3,8,LB + greedy UB,7,1,2353,0.58531
+random,60,0.3,8,greedy UB only,7,1,2353,0.53506
+random,60,0.3,8,LB only,7,1,2394,0.56366
+random,60,0.3,8,neither,7,1,2394,0.53472
+random,60,0.3,9,LB + greedy UB,7,1,3479,0.90147
+random,60,0.3,9,greedy UB only,7,1,3479,0.74511
+random,60,0.3,9,LB only,7,1,3514,0.79771
+random,60,0.3,9,neither,7,1,3514,0.71853
+random,60,0.3,10,LB + greedy UB,7,1,9709,2.21023
+random,60,0.3,10,greedy UB only,7,1,9709,2.15329
+random,60,0.3,10,LB only,7,1,9709,2.13794
+random,60,0.3,10,neither,7,1,9709,2.11669
+uz,30,,1,LB + greedy UB,7,1,0,0.00114
+uz,30,,1,greedy UB only,7,0,141568,10.00006
+uz,30,,1,LB only,7,1,30,0.00496
+uz,30,,1,neither,7,0,139008,10.01081
+uz,30,,2,LB + greedy UB,7,1,0,0.00103
+uz,30,,2,greedy UB only,7,1,15,0.00134
+uz,30,,2,LB only,7,1,30,0.0031
+uz,30,,2,neither,7,1,305,0.0361
+uz,30,,3,LB + greedy UB,6,1,366,0.02711
+uz,30,,3,greedy UB only,6,1,1358,0.07574
+uz,30,,3,LB only,6,1,2143,0.07402
+uz,30,,3,neither,6,1,2493,0.12518
+uz,30,,4,LB + greedy UB,6,1,867,0.06279
+uz,30,,4,greedy UB only,6,1,932,0.06606
+uz,30,,4,LB only,6,1,416,0.02382
+uz,30,,4,neither,6,1,568,0.03608
+uz,30,,5,LB + greedy UB,7,1,46,0.00323
+uz,30,,5,greedy UB only,7,1,1015,0.11758
+uz,30,,5,LB only,7,1,30,0.00444
+uz,30,,5,neither,7,1,25001,2.26624
+uz,30,,6,LB + greedy UB,7,0,365824,10.00235
+uz,30,,6,greedy UB only,7,0,397824,10.00183
+uz,30,,6,LB only,7,0,313600,10.0021
+uz,30,,6,neither,7,0,302848,10.00897
+uz,30,,7,LB + greedy UB,6,1,8508,0.39092
+uz,30,,7,greedy UB only,6,1,18197,1.03536
+uz,30,,7,LB only,6,1,13201,0.72048
+uz,30,,7,neither,6,1,13689,0.57524
+uz,30,,8,LB + greedy UB,7,1,0,0.00076
+uz,30,,8,greedy UB only,7,1,2745,0.19997
+uz,30,,8,LB only,7,1,67,0.00413
+uz,30,,8,neither,7,1,3348,0.23379
+uz,30,,9,LB + greedy UB,7,1,0,0.00103
+uz,30,,9,greedy UB only,7,1,5225,0.60507
+uz,30,,9,LB only,7,1,30,0.00339
+uz,30,,9,neither,7,1,93686,7.1801
+uz,30,,10,LB + greedy UB,7,1,0,0.00131
+uz,30,,10,greedy UB only,7,0,118528,10.0136
+uz,30,,10,LB only,7,1,30,0.00404
+uz,30,,10,neither,7,0,120832,10.0096
+uz,50,,1,LB + greedy UB,9,1,82,0.0075
+uz,50,,1,greedy UB only,9,0,216064,10.00184
+uz,50,,1,LB only,9,1,375,0.01283
+uz,50,,1,neither,9,0,196608,10.0088
+uz,50,,2,LB + greedy UB,9,1,50,0.01234
+uz,50,,2,greedy UB only,9,0,250624,10.01314
+uz,50,,2,LB only,9,1,7016,0.3096
+uz,50,,2,neither,9,0,259328,10.00379
+uz,50,,3,LB + greedy UB,10,0,226304,10.00666
+uz,50,,3,greedy UB only,10,0,225280,10.01085
+uz,50,,3,LB only,10,0,263424,10.00415
+uz,50,,3,neither,10,0,256768,10.003
+uz,50,,4,LB + greedy UB,10,0,308480,10.00647
+uz,50,,4,greedy UB only,10,0,288256,10.00316
+uz,50,,4,LB only,9,1,262661,8.05388
+uz,50,,4,neither,9,0,307968,10.00015
+uz,50,,5,LB + greedy UB,9,1,50,0.00819
+uz,50,,5,greedy UB only,9,0,193280,10.01537
+uz,50,,5,LB only,9,1,808,0.05055
+uz,50,,5,neither,9,0,205568,10.01459
+uz,50,,6,LB + greedy UB,9,1,0,0.00146
+uz,50,,6,greedy UB only,9,0,210176,10.00363
+uz,50,,6,LB only,9,1,50,0.00681
+uz,50,,6,neither,9,0,290048,10.00087
+uz,50,,7,LB + greedy UB,9,1,3992,0.1907
+uz,50,,7,greedy UB only,9,0,157184,10.00026
+uz,50,,7,LB only,9,1,297456,8.56367
+uz,50,,7,neither,9,0,349184,10.00309
+uz,50,,8,LB + greedy UB,9,1,14504,0.54052
+uz,50,,8,greedy UB only,9,0,353792,10.00402
+uz,50,,8,LB only,9,1,155700,3.48297
+uz,50,,8,neither,9,0,373504,10.00323
+uz,50,,9,LB + greedy UB,9,1,55,0.00542
+uz,50,,9,greedy UB only,9,0,312576,10.00028
+uz,50,,9,LB only,9,1,58,0.00728
+uz,50,,9,neither,9,0,189952,10.00619
+uz,50,,10,LB + greedy UB,9,1,16257,0.39432
+uz,50,,10,greedy UB only,9,0,260352,10.00614
+uz,50,,10,LB only,9,1,50,0.00896
+uz,50,,10,neither,9,0,356096,10.00341
+uz,80,,1,LB + greedy UB,10,0,151296,10.0127
+uz,80,,1,greedy UB only,10,0,147456,10.01072
+uz,80,,1,LB only,10,0,179712,10.00415
+uz,80,,1,neither,10,0,170240,10.00181
+uz,80,,2,LB + greedy UB,10,1,80,0.02015
+uz,80,,2,greedy UB only,10,0,127744,10.00693
+uz,80,,2,LB only,11,0,125696,10.01961
+uz,80,,2,neither,11,0,117760,10.01221
+uz,80,,3,LB + greedy UB,10,0,182528,10.00132
+uz,80,,3,greedy UB only,10,0,207360,10.01055
+uz,80,,3,LB only,9,0,220416,10.0058
+uz,80,,3,neither,9,0,208384,10.00132
+uz,80,,4,LB + greedy UB,9,0,316928,10.00917
+uz,80,,4,greedy UB only,9,0,306176,10.00569
+uz,80,,4,LB only,9,0,227584,10.00434
+uz,80,,4,neither,9,0,207872,10.00621
+uz,80,,5,LB + greedy UB,9,0,204800,10.00652
+uz,80,,5,greedy UB only,9,0,239360,10.00079
+uz,80,,5,LB only,9,0,207872,10.0023
+uz,80,,5,neither,9,0,192768,10.00563
+uz,80,,6,LB + greedy UB,9,0,277504,10.00143
+uz,80,,6,greedy UB only,9,0,320000,10.00459
+uz,80,,6,LB only,9,0,141824,10.0043
+uz,80,,6,neither,9,0,124160,10.01644
+uz,80,,7,LB + greedy UB,10,0,233728,10.00409
+uz,80,,7,greedy UB only,10,0,245760,10.00718
+uz,80,,7,LB only,10,0,234496,10.0072
+uz,80,,7,neither,10,0,274944,10.00141
+uz,80,,8,LB + greedy UB,10,0,176896,10.00946
+uz,80,,8,greedy UB only,10,0,176896,10.00316
+uz,80,,8,LB only,11,0,140032,10.01669
+uz,80,,8,neither,11,0,115968,10.01859
+uz,80,,9,LB + greedy UB,11,1,526,0.09668
+uz,80,,9,greedy UB only,11,0,88832,10.01997
+uz,80,,9,LB only,11,1,576,0.06396
+uz,80,,9,neither,11,0,118272,10.01542
+uz,80,,10,LB + greedy UB,9,0,239616,10.00863
+uz,80,,10,greedy UB only,9,0,226304,10.00491
+uz,80,,10,LB only,9,0,235776,10.01343
+uz,80,,10,neither,9,0,243456,10.00704

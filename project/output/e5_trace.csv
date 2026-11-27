@@ -1,0 +1,26 @@
+instance,solver,time,slots,lower_bound
+random n=500 p=0.1,hybrid,0.1619,16,5
+random n=500 p=0.1,hybrid,0.166,15,5
+random n=500 p=0.1,hybrid,0.2982,14,5
+random n=500 p=0.1,hybrid,1.1031,13,5
+random n=500 p=0.1,B&B,0.0386,16,5
+random n=500 p=0.1,B&B,3.8868,15,5
+random n=500 p=0.1,DSATUR + tabu,0.0505,16,5
+random n=500 p=0.1,DSATUR + tabu,0.0554,15,5
+random n=500 p=0.1,DSATUR + tabu,0.1332,14,5
+random n=500 p=0.1,DSATUR + tabu,0.8626,13,5
+random n=300 p=0.1,hybrid,0.0406,11,5
+random n=300 p=0.1,hybrid,0.0857,10,5
+random n=300 p=0.1,B&B,0.0188,11,5
+random n=300 p=0.1,B&B,5.5755,10,5
+random n=300 p=0.1,DSATUR + tabu,0.0157,11,5
+random n=300 p=0.1,DSATUR + tabu,0.0544,10,5
+uz n=500,hybrid,0.0642,10,9
+uz n=500,hybrid,0.0757,9,9
+uz n=500,B&B,0.0528,13,9
+uz n=500,B&B,0.4946,12,9
+uz n=500,DSATUR + tabu,0.0488,13,9
+uz n=500,DSATUR + tabu,0.052,12,9
+uz n=500,DSATUR + tabu,0.065,11,9
+uz n=500,DSATUR + tabu,0.1156,10,9
+uz n=500,DSATUR + tabu,0.1634,9,9

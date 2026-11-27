@@ -1,0 +1,16 @@
+E4 B&B ablation
+  wrote e4_bnb_ablation.csv (280 rows)
+E5 anytime trace
+  random n=500 p=0.1: hybrid 13, B&B 15, tabu 13, LB 5
+  random n=300 p=0.1: hybrid 10, B&B 10, tabu 10, LB 5
+  uz n=500: hybrid 9, B&B 12, tabu 9, LB 9
+  wrote e5_trace.csv (23 rows)
+E6 reduction check
+  wrote e6_reduction.csv (90 rows)
+E7 UZ timetable
+  wrote e7_timetable.csv (500 rows)
+  wrote e7_summary.csv (1 rows)
+Statistics
+  wrote stats_tests.csv (33 rows)
+  wrote e2_summary.csv (80 rows)
+Done in 997.0 s
